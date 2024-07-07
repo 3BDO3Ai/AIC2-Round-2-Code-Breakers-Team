@@ -109,6 +109,7 @@ Download the dataset from the provided link and extract it into the respective d
 - Monitor training and validation metrics to avoid overfitting and ensure model robustness.
 - **Optimal Environment:** Preprocess the data on Kaggle's TPU for efficiency, and train the model on a high-performance computer,and i used (PC with GPU A4000 16GB and 135 GB RAM) for faster processing.
 - **Path Management:** Ensure consistency with file paths across scripts and notebooks to avoid errors during data loading, model training, and evaluation.
+- *Note that:* the test output will appear in the model path.
 
 ## Our Teeam
 ### Code Breakers
