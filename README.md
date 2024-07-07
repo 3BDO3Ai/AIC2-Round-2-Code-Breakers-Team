@@ -88,7 +88,7 @@ Download the dataset from the provided link and extract it into the respective d
 
 ### Checkpoints
 - Model checkpoints saved during the training process to a designated output directory.
-- Best Model checkpoint is also uploaded to the next link if it did not work with you: https://drive.google.com/drive/folders/1iaDpyfDGHSdddQlzKit0Tq6cujJXweT2?usp=drive_link
+- Best Model checkpoint is also uploaded to the next link because it's very big to upload here: https://drive.google.com/drive/folders/1iaDpyfDGHSdddQlzKit0Tq6cujJXweT2?usp=drive_link
 
 ## Results and Evaluation
 
