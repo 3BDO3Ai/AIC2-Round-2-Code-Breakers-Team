@@ -77,18 +77,18 @@ Download the dataset from the provided link and extract it into the respective d
 
 ### Model Architecture
 - Utilizes pre-trained Wav2Vec2 model facebookwav2vec2-xls-r-300m for speech recognition.
-- Fine-tuned on provided dataset for Egyptian dialect through a phased training approach.
+- Fine-tuned the provided dataset for Egyptian dialect through a phased training approach.
 
 ### Training Process
 - Dataset split and trained in phases to manage large size effectively.
 - Further training on entire dataset by sampling approximately 40% randomly to enhance Word Error Rate (WER).
 - 
 ### Final Model
-- Model trained and uploaded to hugging face: 3BDOAi3/facebookwav2vec2-xls-r-300m-finetuned-with-MTC-Dataset
+- Model trained and uploaded also to hugging face: 3BDOAi3/facebookwav2vec2-xls-r-300m-finetuned-with-MTC-Dataset
 
 ### Checkpoints
-- Model checkpoints saved during training process to designated output directory.
-- Best Model checkpoint is on the next link: https://drive.google.com/drive/folders/1iaDpyfDGHSdddQlzKit0Tq6cujJXweT2?usp=drive_link
+- Model checkpoints saved during the training process to a designated output directory.
+- Best Model checkpoint is also uploaded to the next link if it did not work with you: https://drive.google.com/drive/folders/1iaDpyfDGHSdddQlzKit0Tq6cujJXweT2?usp=drive_link
 
 ## Results and Evaluation
 
