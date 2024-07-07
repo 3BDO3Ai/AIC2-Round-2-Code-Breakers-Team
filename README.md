@@ -111,9 +111,10 @@ Download the dataset from the provided link and extract it into the respective d
 - **Path Management:** Ensure consistency with file paths across scripts and notebooks to avoid errors during data loading, model training, and evaluation.
 - *Note that:* the test output will appear in the model path.
 - You can run the testing phase on CPU or GPU with the two versions uploaded.
+- Test_CPU or Test_GPU are the same files just use what you want, on CPU may take more time about one hour but GPU may take a couple of minutes. 
 - When using GPU make sure CUDA is installed on your PC.
 - Use Jupiter on the Train and Test phases.
-- Ignore "It is strongly recommended to pass the ``sampling_rate`` argument to this function. Failing to do so can result in silent errors that might be hard to debug." massege it will give you an output without any problem.
+- Ignore "It is strongly recommended to pass the ``sampling_rate`` argument to this function. Failing to do so can result in silent errors that might be hard to debug." This message will give you an output without any problem.
 
 ## Our Team
 ### Code Breakers
