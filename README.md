@@ -58,7 +58,7 @@ Download the dataset from the provided link and extract it into the respective d
 ### Key Scripts
 - Preprocess_&_Prepare_Data.ipynb Preprocesses audio files, extracts features, and saves processed data.
 - Train.ipynb Defines model architecture, sets training parameters, trains the model, and saves checkpoints.
-- Test.ipynb Loads trained model, transcribes audio files, and evaluates performance metrics.
+- Test.ipynb Loads trained model, transcribes audio files and evaluates performance metrics.
 
 ## Running the Code
 
@@ -81,7 +81,7 @@ Download the dataset from the provided link and extract it into the respective d
 
 ### Training Process
 - Dataset split and trained in phases to manage large size effectively.
-- Further training on entire dataset by sampling approximately 40% randomly to enhance Word Error Rate (WER).
+- Further training on the entire dataset by sampling approximately 40% randomly to enhance Word Error Rate (WER).
 - 
 ### Final Model
 - Model trained and uploaded also to hugging face: 3BDOAi3/facebookwav2vec2-xls-r-300m-finetuned-with-MTC-Dataset
@@ -107,11 +107,12 @@ Download the dataset from the provided link and extract it into the respective d
 ### Tips
 - Regularly save model checkpoints to prevent data loss during training.
 - Monitor training and validation metrics to avoid overfitting and ensure model robustness.
-- **Optimal Environment:** Preprocess the data on Kaggle's TPU for efficiency, and train the model on a high-performance computer,and i used (PC with GPU A4000 16GB and 135 GB RAM) for faster processing.
+- **Optimal Environment:** Preprocess the data on Kaggle's TPU for efficiency, and train the model on a high-performance computer, and I used (A PC with GPU A4000 16GB and 135 GB RAM) for faster processing.
 - **Path Management:** Ensure consistency with file paths across scripts and notebooks to avoid errors during data loading, model training, and evaluation.
 - *Note that:* the test output will appear in the model path.
+- You can run the testing phase on CPU or GPU with the two versions uploaded.
 
-## Our Teeam
+## Our Team
 ### Code Breakers
 
 Abdelrahman Ahmed Karim Mohammed
